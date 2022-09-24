@@ -40,7 +40,7 @@ const Cart = () => {
     };
     initFetch();
     localStorage.setItem("id", JSON.stringify(id));
-  }, [dispatch, id]);
+  }, [id]);
 
   return (
     <div>

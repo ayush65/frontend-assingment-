@@ -45,7 +45,7 @@ const Homepage = () => {
         });
     };
     initFetch();
-  }, [anime, dispatch]);
+  }, []);
 
   return (
     <div>
