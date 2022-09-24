@@ -1,0 +1,25 @@
+/** @format */
+
+:root {
+  --primary-color: #a8a8a8;
+  --white: white;
+  --tertiary-color: #023e8a;
+  --navbar-hover: #aed1e6;
+  --navbar-shadow: rgba(50, 50, 93, 0.25);
+  --navbar-shad: rgba(0, 0, 0, 0.3);
+  --border-color: #777;
+  --card-shadow: rgba(0, 0, 0, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-icon,
+.navbar-header-product {
+  text-decoration: none;
+}
+
+.navbar-header-product {
+  color: black;
+  font-size: 1.5rem;
+}

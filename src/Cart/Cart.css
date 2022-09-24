@@ -1,0 +1,43 @@
+/** @format */
+
+.img-grid1 {
+  width: 10%;
+  height: 10%;
+}
+.card1 {
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.item-content1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  margin: 3rem;
+}
+.btn-add-to-delete {
+  background-color: white;
+  color: black !important;
+  border: 1px solid black;
+  height: 2rem;
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 492px) {
+  .card1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .img-grid1 {
+    width: 30%;
+    height: 30%;
+  }
+  .btn-add-to-delete {
+    margin: 0.5rem;
+  }
+  .item-content1 {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}
